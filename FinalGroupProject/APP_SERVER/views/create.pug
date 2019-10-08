@@ -1,0 +1,33 @@
+extends layout
+
+block content
+ form(method='POST' action='')
+  table
+   tr
+    th
+     label(for='Title') Title:
+    th
+     input(type='text', placeholder='Title' name='Title')
+   tr
+    th 
+     label(for='author') Author:
+    th
+     input(type='text', placeholder='author' name='author')
+   tr
+    th 
+     label(for='category') Category:
+    th
+     input(type='text', placeholder='category' name='category')
+   tr
+    th 
+     label(for='Reviews') Released Date:
+    th
+     input(type='date', placeholder='Released_Date' name='Reviews')
+   tr
+    th 
+     label(for='language') Language:
+    th
+     input(type='text', placeholder='language' name='language')         
+   tr
+    th(colspan='2')
+     button(type='Submit', name='Submit') Submit
